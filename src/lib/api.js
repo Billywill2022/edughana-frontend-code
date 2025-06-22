@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://edughana-backend-api-8a9f9d509f56.herokuapp.com';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
